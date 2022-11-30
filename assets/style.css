@@ -1,0 +1,56 @@
+:root {
+    --sectionsbackground: gainsboro;
+    --border: 3px solid rgb(228, 117, 74);
+    --fontgroup:'Courier New', Courier, monospace;
+}
+
+
+
+body{
+    background-color: rgb(240, 225, 139);
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    font-family: var(--fontgroup);
+    background-color: var(--sectionsbackground);
+    border: var(--border);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    font-family: var(--fontgroup)
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: var(--fontgroup);
+}
+
+#speakers{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}
+
+section {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: var(--sectionsbackground);
+    border: var(--border);
+}
+
+section h2{
+    font-family: var(--fontgroup)
+}
+
+section p{
+    display: flex;
+    flex-flow: column wrap;
+    font-family: var(--fontgroup);
+    font-style: oblique;
+}
