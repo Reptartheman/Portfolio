@@ -5,7 +5,6 @@
 }
 
 
-
 body{
     background-color: rgb(240, 225, 139);
 }
@@ -28,18 +27,37 @@ nav {
     border-bottom: 0px;
 }
 
-nav a {
-    display: flex;
+button:hover{
+    background-color: rgb(176, 37, 16);
+    color: rgb(240, 225, 139);
+}
+
+button{
+    justify-content: center;
+    background-color: rgb(240, 225, 139);
+    color: rgb(176, 37, 16);
+    font-size: x-large;
+    font-family: var(--fontgroup);
+    font-weight: bolder;
+    width:13em;
 
 }
 
 footer{
     display: flex;
     justify-content: center;
+    align-items: center;
     font-family: var(--fontgroup);
     background-color: var(--sectionsbackground);
     border-top: 0px;
     border: var(--border)
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
 }
 
 #speakers{
@@ -50,9 +68,34 @@ footer{
     
 }
 
-section {
+article{
     display: flex;
     flex-flow: column wrap;
+    background-color: var(--sectionsbackground);
+    border: var(--border);
+    font: var(--fontgroup);
+}
+
+article p{
+    display: flex;
+    flex-flow: column wrap;
+    font-family: var(--fontgroup);
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
+
+
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
     background-color: var(--sectionsbackground);
     border: var(--border);
 }
@@ -74,32 +117,32 @@ section p{
     text-align: center;
 }
 
+section figure {
+    display: flex;
+    flex-flow: row wrap;
+    font-family: var(--fontgroup);
+    font-style: oblique;
+    font-weight: bold;
+}
+
 .AboutMe{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    font-size: 50px
+    font-size: 50px;
+    font-family: var(--fontgroup);
+    margin-bottom: 0em;
+
 }
 
 .MyWork{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    font-size: 50px
+    font-size: 50px;
+    text-align: center;
 }
 
-
-.hero-image{
-    background-image: url(../assets/images/IMG_3435.jpeg);
-    background-color:rgb(240, 225, 139);
-    height: 500px;
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-blend-mode:luminosity
-
-}
 
 /*MEDIA QUERIES*/
 
@@ -120,7 +163,7 @@ section p{
     }
 
     header nav {
-        background-color:rgb(240, 225, 139)
+        background-color:rgb(240, 225, 139);
 
     }
 
@@ -142,6 +185,14 @@ section p{
 
     .MyWork{
         font-size: large;
+    }
+
+    a button{
+        font-size: small;
+        width: 50px;
+        flex-direction: column wrap;
+
+
     }
 
 
