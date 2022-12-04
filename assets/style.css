@@ -26,22 +26,27 @@ nav {
     border: 3px solid rgb(228, 117, 74);
     border-bottom: 0px;
 }
-
-button:hover{
-    background-color: rgb(176, 37, 16);
-    color: rgb(240, 225, 139);
-}
-
-button{
+#navbuttons{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .35s ease-out;
     justify-content: center;
     background-color: rgb(240, 225, 139);
     color: rgb(176, 37, 16);
     font-size: x-large;
     font-family: var(--fontgroup);
     font-weight: bolder;
-    width:13em;
+    width: 10em;
+    cursor: pointer;
 
 }
+button:hover{
+    background-color: rgb(176, 37, 16);
+    color: rgb(240, 225, 139);
+}
+
+
 
 footer{
     display: flex;
@@ -93,37 +98,34 @@ article p{
 
 section {
     display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
+    justify-content: space-evenly;
     align-items: center;
     background-color: var(--sectionsbackground);
     border: var(--border);
-}
-
-section h1{
     font-family: var(--fontgroup);
-    text-decoration: underline;
+
+
+}
+section h1{
+    display: flex;
+    margin-top: 0%;
     font-size: xx-large;
     text-align: center;
-    
+    font-size: 50px;
 }
 
-section p{
-    display: flex;
-    flex-flow: column wrap;
+section button {
+    background-color: rgb(240, 225, 139);
+    color: rgb(176, 37, 16);
+    position: relative;
+    overflow: hidden;
     font-family: var(--fontgroup);
-    font-style: oblique;
-    font-weight: bold;
-    text-align: center;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all .35s ease-out;
 }
 
-section figure {
-    display: flex;
-    flex-flow: row wrap;
-    font-family: var(--fontgroup);
-    font-style: oblique;
-    font-weight: bold;
-}
+
 
 .AboutMe{
     display: flex;
@@ -133,14 +135,6 @@ section figure {
     font-family: var(--fontgroup);
     margin-bottom: 0em;
 
-}
-
-.MyWork{
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-    font-size: 50px;
-    text-align: center;
 }
 
 
