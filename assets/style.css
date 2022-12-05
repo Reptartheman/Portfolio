@@ -201,6 +201,13 @@ section figcaption{
 
     }
 
+    #speakers{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
     #navbuttons{
         position: relative;
         overflow: hidden;
@@ -209,7 +216,7 @@ section figcaption{
         justify-content: center;
         background-color: rgb(240, 225, 139);
         color: rgb(176, 37, 16);
-        font-size: x-large;
+        font-size: medium;
         font-family: var(--fontgroup);
         font-weight: bolder;
         width: 10em;
@@ -222,7 +229,7 @@ section figcaption{
     }
 
 
-    article p{
+    article div p{
         font-size: medium;
 
     }
@@ -233,7 +240,7 @@ section figcaption{
     #imageofme{
         width: 75%;
         height: auto;
-        margin-left: 60px;
+        margin-left: 30px;
     }
 
     section h1{
@@ -291,7 +298,33 @@ section figcaption{
     text-align: center
     }
 
-    header nav button{
-        font-size: smaller;
-        width:auto;
+    #webappbuttons{
+        width: 5;
     }
+
+    section figure img{
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    div img{
+        display: flex;
+        width: 35%%;
+        height: auto;
+
+    }
+    
+    footer img {
+        width: 30px;
+        height: 30px
+    }
+
+    footer p {
+        text-align: center;
+        font-weight: bold;
+        font-size: small;
+    }
+            
