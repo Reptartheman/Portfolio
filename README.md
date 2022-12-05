@@ -1,1 +1,6 @@
 # Challenge-2-Portfolio
+## This project features web app work and applies concepts that I have learned throughout the bootcamp to deepen my understanding of said concepts and help me build confidence in my web app building abilities. The problem this web app solves is now that I have completed this assignment, I have an all-in-one place where people (both employers and non-employers) can go to view my work. During this process, I expanded the little knowledge I already had on media queries and I also learned that I need to dig deeper into keeping my style sheets organized so that I can go back and improve upon this page when need be. 
+
+## Instructions for use are simple, you can navigate the page by clicking the buttons at the top of the page which will then scroll to the indicated portions of the web app. This web app can view on any media type.
+
+## I used various sources for this web app. I used articles from W3schools and MDN Web Docs to guide me through how the flexbox is laid out. The icons for this page were used from various artists on the website Flaticon.com. 
