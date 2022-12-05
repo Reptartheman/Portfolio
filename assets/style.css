@@ -312,7 +312,7 @@ section figcaption{
     
     div img{
         display: flex;
-        width: 35%%;
+        width: 35%;
         height: auto;
 
     }
@@ -328,3 +328,4 @@ section figcaption{
         font-size: small;
     }
             
+}
