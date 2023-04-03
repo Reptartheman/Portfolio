@@ -167,7 +167,7 @@ section figcaption{
     font-size: large;
     font-family: var(--fontgroup);
     font-weight: bolder;
-    width: 20em;
+    width: 10em;
     cursor: pointer;
 }
 
@@ -176,6 +176,16 @@ section figcaption{
     color: rgb(240, 225, 139);
 
 }
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 4fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 8px;
+    justify-items: center;
+    align-items: center;
+    }
 
 /*MEDIA QUERIES*/
 
